@@ -8,7 +8,7 @@ API_HASH = ""
 BOT_TOKEN = ""
 
 # Initialize bot
-app = Client("ytbot", api_id=25527509, api_hash=2f2fc130d5091f2d09bd303dd2019f6f, bot_token7973940134:AAEFpYblpqCjYYd0oOLvDoEj8P3Dl_DpDus=)
+app = Client("ytbot", api_id=, api_hash=, bot_=)
 
 # yt-dlp options
 ydl_opts = {
