@@ -3,9 +3,9 @@ from pyrogram import Client, filters
 from yt_dlp import YoutubeDL
 
 # 🔒 Replace with your actual credentials
-API_ID = 25527509
-API_HASH = "2f2fc130d5091f2d09bd303dd2019f6f"
-BOT_TOKEN = "7973940134:AAEFpYblpqCjYYd0oOLvDoEj8P3Dl_DpDus"
+API_ID = ""
+API_HASH = ""
+BOT_TOKEN = ""
 
 # Initialize bot
 app = Client("ytbot", api_id=25527509, api_hash=2f2fc130d5091f2d09bd303dd2019f6f, bot_token7973940134:AAEFpYblpqCjYYd0oOLvDoEj8P3Dl_DpDus=)
