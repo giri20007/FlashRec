@@ -1,14 +1,17 @@
 from pyrogram import Client, filters
 
-API_ID = ""
-API_HASH = ""
-BOT_TOKEN = ""
+API_ID = "25527509"
+API_HASH = "2f2fc130d5091f2d09bd303dd2019f6f"
+BOT_TOKEN = "7973940134:AAGu1QoWXyvMvjR7AZiZe9rJfhZVbD80TMA"
 
-app = Client("flashrec", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
+@flashrec = Client(
+    name="flashrec",
+    api_id=API_ID,
+    api_hash=API_HASH,
+    bot_token=BOT_TOKEN
+ )
 
-@app.on_message(filters.text & filters.private)
-def reply_hi(client, message):
-    if message.text.lower() == "hi":
-        message.reply("Hello!")
 
-app.run()
+print("Bot flah started")
+
+@flashrec.run()
